@@ -2,7 +2,6 @@
   margin:0;
   padding:0;
   background-color:#A7A8AE;
-
 }
 
 #inner {
@@ -39,6 +38,9 @@ body{
   top: 5px;
   left: 5px;
   font-size: 18px;
+}
+.navbar button::after{
+  background-color:#fff;
 }
 .navbar .navbar-brand{
   font-size: 20px;
