@@ -27,49 +27,49 @@
     <div class="row" id="four-panel">
 
       <div class="col-md-3">
-        <div class="panel panel-box clearfix">
+        <div class="panel panel-box clearfix" style="border-radius: 30px">
           <div class="panel-icon pull-left bg-green">
-            <i class="fas fa-user-tie"></i>
+            <i class="fas fa-user-tie fa-5x" ></i>
           </div>
           <div class="panel-value pull-right">
-            <h2 class="margin-top"> <?php  echo $c_user['total']; ?> </h2>
-            <p class="text-muted">Users</p>
+            <h1 class="numbers"> <?php  echo $c_user['total']; ?> </h1>
+            <p class="text-muted" style="font-size:16px" >Users</p>
           </div>
         </div>
       </div>
 
       <div class="col-md-3">
-        <div class="panel panel-box clearfix">
+        <div class="panel panel-box clearfix" style="border-radius: 30px">
           <div class="panel-icon pull-left bg-red">
-          <i class="fas fa-list-alt"></i>
+          <i class="fas fa-list-alt fa-5x" ></i>
           </div>
           <div class="panel-value pull-right">
-            <h2 class="margin-top"> <?php  echo $c_category['total']; ?> </h2>
-            <p class="text-muted">Category</p>
+            <h1 class="numbers" > <?php  echo $c_category['total']; ?> </h1>
+            <p class="text-muted" style="font-size:16px">Category</p>
           </div>
         </div>
       </div>
 
       <div class="col-md-3">
-        <div class="panel panel-box clearfix">
+        <div class="panel panel-box clearfix" style="border-radius: 30px">
           <div class="panel-icon pull-left bg-blue">
-          <i class="fas fa-shopping-cart"></i>
+          <i class="fas fa-shopping-cart fa-5x"></i>
           </div>
           <div class="panel-value pull-right">
-            <h2 class="margin-top"> <?php  echo $c_product['total']; ?> </h2>
-            <p class="text-muted">Products</p>
+            <h1 class="numbers" > <?php  echo $c_product['total']; ?> </h1>
+            <p class="text-muted" style="font-size:16px">Products</p>
           </div>
         </div>
       </div>
       
       <div class="col-md-3">
-        <div class="panel panel-box clearfix">
+        <div class="panel panel-box clearfix" style="border-radius: 30px">
           <div class="panel-icon pull-left bg-yellow">
-          <i class="fas fa-hand-holding-usd"></i>
+          <i class="fas fa-hand-holding-usd fa-5x"></i>
           </div>
           <div class="panel-value pull-right">
-            <h2 class="margin-top"> <?php  echo $c_sale['total']; ?></h2>
-            <p class="text-muted">Sales</p>
+            <h1 class="numbers" > <?php  echo $c_sale['total']; ?></h1>
+            <p class="text-muted" style="font-size:16px">Sales</p>
           </div>
         </div>
       </div>

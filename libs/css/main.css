@@ -81,7 +81,9 @@ body{
   background-color: #c2a2a2;
   color:#fff;
 }
-
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
 
 /* LOGIN PAGE */
 .login-page{
@@ -324,4 +326,8 @@ input[type=file]{
 #four-panel{
   margin-bottom: 20px;
   padding: 10px;
+  
+}
+#four-panel .numbers{
+  font-size: 33px;
 }
