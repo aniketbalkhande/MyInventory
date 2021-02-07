@@ -26,52 +26,60 @@
     <!-- Four Boxes for Users, Category, Products, Sales -->
     <div class="row" id="four-panel">
 
-      <div class="col-md-3">
+      <div class="col-md-3" id="dashboard-a">
+      <a href="users.php" >
         <div class="panel panel-box clearfix" style="border-radius: 30px">
           <div class="panel-icon pull-left bg-green">
-            <i class="fas fa-user-tie fa-5x" ></i>
+            <i class="fas fa-user-tie fa-5x" style="color:#000" ></i>
           </div>
           <div class="panel-value pull-right">
             <h1 class="numbers"> <?php  echo $c_user['total']; ?> </h1>
             <p class="text-muted" style="font-size:16px" >Users</p>
           </div>
         </div>
+        </a>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-md-3" id="dashboard-a">
+      <a href="category.php" >
         <div class="panel panel-box clearfix" style="border-radius: 30px">
           <div class="panel-icon pull-left bg-red">
-          <i class="fas fa-list-alt fa-5x" ></i>
+          <i class="fas fa-list-alt fa-5x" style="color:#000" ></i>
           </div>
           <div class="panel-value pull-right">
             <h1 class="numbers" > <?php  echo $c_category['total']; ?> </h1>
             <p class="text-muted" style="font-size:16px">Category</p>
           </div>
         </div>
+        </a>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-md-3" id="dashboard-a">
+      <a href="product.php" >
         <div class="panel panel-box clearfix" style="border-radius: 30px">
           <div class="panel-icon pull-left bg-blue">
-          <i class="fas fa-shopping-cart fa-5x"></i>
+          <i class="fas fa-shopping-cart fa-5x" style="color:#000"></i>
           </div>
           <div class="panel-value pull-right">
             <h1 class="numbers" > <?php  echo $c_product['total']; ?> </h1>
             <p class="text-muted" style="font-size:16px">Products</p>
           </div>
         </div>
+        </a>
       </div>
       
-      <div class="col-md-3">
+      <div class="col-md-3" id="dashboard-a">
+      <a href="sales.php" >
         <div class="panel panel-box clearfix" style="border-radius: 30px">
           <div class="panel-icon pull-left bg-yellow">
-          <i class="fas fa-hand-holding-usd fa-5x"></i>
+          <i class="fas fa-hand-holding-usd fa-5x" style="color:#000"></i>
           </div>
           <div class="panel-value pull-right">
             <h1 class="numbers" > <?php  echo $c_sale['total']; ?></h1>
             <p class="text-muted" style="font-size:16px">Sales</p>
           </div>
         </div>
+      </a>
       </div>
 
     </div>
